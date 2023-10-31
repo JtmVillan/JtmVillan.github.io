@@ -14,6 +14,7 @@
     <!-- Vendor CSS Files -->
     <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
     <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
     <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
     <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
     
@@ -26,6 +27,7 @@
      ================================ -->
 </head>
 
+<body>
     <!-- Header -->
     <header id="header" class="fixed-top">
         <div class="container d-flex align-items-center justify-content-between">
@@ -39,7 +41,7 @@
                     <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
                     <li><a class="nav-link scrollto" href="#about">About</a></li>
                     <li><a class="nav-link scrollto" href="#skills">Skills</a></li>
-                    <li><a class="nav-link scrollto" href="#projects">Projects</a></li>
+                    <li><a class="nav-link scrollto" href="#work">Projects</a></li>
                     <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
                 </ul>
                 <i class="bi bi-list mobile-nav-toggle"></i>
@@ -49,7 +51,8 @@
     </header><!-- End Header -->
 
     <!-- Hero Section -->
-    <div id="hero" class="hero route bd-image" style="background-image:url(/assets/img/hero-bg-black.jpg)">
+    <!-- <div id="hero" class="hero route bd-image" style="background-image:url(/assets/img/hero-bg-lofi.png)"> -->
+    <div id="hero" class="hero route bd-image">
         <div class="overlay-intro"></div>
         <div class="hero-content display-table">
             <div class="table-cell">
@@ -67,30 +70,320 @@
             <div class="container">
                 <div class="row">
                     <div class="col-sm-12">
-                        <div class="box-shadow-full">
-                            <div class="col-md-6">
-                                <div class="about-me pt-4 pt-md-0">
-                                    <div class="title-box-2">
-                                        <h5 class="title-left">
-                                            About me
-                                        </h5>
+                        <div class="about-me pt-4 pt-md-0">
+                            <div class="title-box-2">
+                                <h3 class="title-left">
+                                    Hi! My name is <span class="highlight">Jared Villanueva.</span>
+                                </h3>
+                                <h3 class="title-left">
+                                    I'm a <span class="highlight">Computer Engineer</span> based in <span class="highlight">San Diego.</span>
+                                </h3>
+                            </div>
+                                <p class="lead">
+                                    I recently graduated from <span class="fw-bold">UCSD</span> after comleting a Bachelor of
+                                    Science in Computer Engineering under the department of Electrical and Computer 
+                                    Engineering
+                                </p>
+                                <p class="lead">
+                                    Given my background, I have a foundational understanding of both software and hardware 
+                                    in relation to software engineering. I greatly enjoy the design and entrepreneurial
+                                    aspect of development. With both my technical knowledge and eye of simple
+                                    and aesthetic design, I aim to build work that is scalable and efficient for a 
+                                    simplistic user experience
+                                </p>
+                                <p class="lead">
+                                    <span class="fw-bold">I believe in a maintaining a good work-life balance</span>, so in my free-time you
+                                    can find me in the gym, reading books, or indulging in music and video games. 
+                                </p>
+                                <a class="icon-link icon-link-hover" href="#">
+                                    See my resume<i class="bi bi-arrow-right"></i>
+                                </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <hr>
+
+        <!-- Skills -->
+        <section id="skills" class="skills-mf sect-pt4 route">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <div class="title-box text-center">
+                            <h3 class="title-a">
+                                Skills
+                            </h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <hr>
+
+        <!-- Projects -->
+        <section id="work" class="projects-mf sect-pt4 route">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <div class="title-box text-center">
+                            <h3 class="title-a">
+                                Projects
+                            </h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <!-- Project 1 -->
+                    <div class="col-md-4">
+                        <div class="work-box">
+                            <a href="assets/img/work-1.jpg" data-gallery="projectsGallery" class="projects-lightbox">
+                                <div class="work-img">
+                                  <img src="assets/img/work-1.jpg" alt="" class="img-fluid">
+                                </div>
+                            </a>
+                            <div class="work-content">
+                                <div class="row">
+                                    <div class="col-sm-8">
+                                        <h2 class="w-title">Health Hive</h2>
+                                        <div class="w-more">
+                                            <span class="w-category">IOT Device</span> / <span class="w-date">May 2023</span>
+                                        </div>
                                     </div>
-                                    <p class="lead">
-                                        Curabitur non nulla sit amet nisl tempus convallis quis ac lectus. Curabitur arcu erat, accumsan id
-                                        imperdiet et, porttitor
-                                        at sem. Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. Nulla
-                                        porttitor accumsan tincidunt.
-                                        </p>
-                                        <p class="lead">
-                                        Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Vivamus suscipit tortor eget felis
-                                        porttitor volutpat. Vestibulum
-                                        ac diam sit amet quam vehicula elementum sed sit amet dui. porttitor at sem.
-                                        </p>
-                                        <p class="lead">
-                                        Nulla porttitor accumsan tincidunt. Quisque velit nisi, pretium ut lacinia in, elementum id enim.
-                                        Nulla porttitor accumsan
-                                        tincidunt. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a.
-                                        </p>
+                                    <div class="row">
+                                        <div class="w-info">
+                                            <p>
+                                                Lorem ipsum dolor sit amet consectetur adipisicing 
+                                                elit. Magni adipisci eaque autem fugiat! Quia, 
+                                                provident vitae! Magni tempora perferendis eum non 
+                                                provident.
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="w-skills">
+
+                                        </div>
+                                    </div>
+                                    <div class="row-sm-4">
+                                        <div class="w-like">
+                                            <a class="icon-link icon-link-hover" href="#">
+                                                <i class="bi bi-arrow-right"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Project 2 -->
+                    <div class="col-md-4">
+                        <div class="work-box">
+                            <a href="assets/img/work-2.jpg" data-gallery="projectsGallery" class="projects-lightbox">
+                                <div class="work-img">
+                                  <img src="assets/img/work-2.jpg" alt="" class="img-fluid">
+                                </div>
+                            </a>
+                            <div class="work-content">
+                                <div class="row">
+                                    <div class="col-sm-8">
+                                        <h2 class="w-title">Analytics Dashboard</h2>
+                                        <div class="w-more">
+                                            <span class="w-category">Web App</span> / <span class="w-date">May 2023</span>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="w-info">
+                                            <p>
+                                                Lorem ipsum dolor sit amet consectetur adipisicing 
+                                                elit. Magni adipisci eaque autem fugiat! Quia, 
+                                                provident vitae! Magni tempora perferendis eum non 
+                                                provident.
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="w-skills">
+
+                                        </div>
+                                    </div>
+                                    <div class="row-sm-4">
+                                        <div class="w-like">
+                                            <a class="icon-link icon-link-hover" href="#">
+                                                <i class="bi bi-arrow-right"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Project 3 -->
+                    <div class="col-md-4">
+                        <div class="work-box">
+                            <a href="assets/img/work-3.jpg" data-gallery="projectsGallery" class="projects-lightbox">
+                                <div class="work-img">
+                                  <img src="assets/img/work-3.jpg" alt="" class="img-fluid">
+                                </div>
+                            </a>
+                            <div class="work-content">
+                                <div class="row">
+                                    <div class="col-sm-8">
+                                        <h2 class="w-title">NachOS</h2>
+                                        <div class="w-more">
+                                            <span class="w-category">Operating System</span> / <span class="w-date">May 2022</span>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="w-info">
+                                            <p>
+                                                Lorem ipsum dolor sit amet consectetur adipisicing 
+                                                elit. Magni adipisci eaque autem fugiat! Quia, 
+                                                provident vitae! Magni tempora perferendis eum non 
+                                                provident.
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="w-skills">
+
+                                        </div>
+                                    </div>
+                                    <div class="row-sm-4">
+                                        <div class="w-like">
+                                            <a class="icon-link icon-link-hover" href="#">
+                                                <i class="bi bi-arrow-right"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Project 4 -->
+                    <div class="col-md-4">
+                        <div class="work-box">
+                            <a href="assets/img/work-4.jpg" data-gallery="projectsGallery" class="projects-lightbox">
+                                <div class="work-img">
+                                  <img src="assets/img/work-4.jpg" alt="" class="img-fluid">
+                                </div>
+                            </a>
+                            <div class="work-content">
+                                <div class="row">
+                                    <div class="col-sm-8">
+                                        <h2 class="w-title">Birds of a Feather</h2>
+                                        <div class="w-more">
+                                            <span class="w-category">Android App</span> / <span class="w-date">May 2022</span>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="w-info">
+                                            <p>
+                                                Lorem ipsum dolor sit amet consectetur adipisicing 
+                                                elit. Magni adipisci eaque autem fugiat! Quia, 
+                                                provident vitae! Magni tempora perferendis eum non 
+                                                provident.
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="w-skills">
+
+                                        </div>
+                                    </div>
+                                    <div class="row-sm-4">
+                                        <div class="w-like">
+                                            <a class="icon-link icon-link-hover" href="#">
+                                                <i class="bi bi-arrow-right"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Project 5 -->
+                    <div class="col-md-4">
+                        <div class="work-box">
+                            <a href="assets/img/work-5.jpg" data-gallery="projectsGallery" class="projects-lightbox">
+                                <div class="work-img">
+                                  <img src="assets/img/work-5.jpg" alt="" class="img-fluid">
+                                </div>
+                            </a>
+                            <div class="work-content">
+                                <div class="row">
+                                    <div class="col-sm-8">
+                                        <h2 class="w-title">Portfolio Site</h2>
+                                        <div class="w-more">
+                                            <span class="w-category">Website</span> / <span class="w-date">Oct 2023</span>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="w-info">
+                                            <p>
+                                                Lorem ipsum dolor sit amet consectetur adipisicing 
+                                                elit. Magni adipisci eaque autem fugiat! Quia, 
+                                                provident vitae! Magni tempora perferendis eum non 
+                                                provident.
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="w-skills">
+
+                                        </div>
+                                    </div>
+                                    <div class="row-sm-4">
+                                        <div class="w-like">
+                                            <a class="icon-link icon-link-hover" href="#">
+                                                <i class="bi bi-arrow-right"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Project 6 -->
+                    <div class="col-md-4">
+                        <div class="work-box">
+                            <a href="assets/img/work-6.jpg" data-gallery="projectsGallery" class="projects-lightbox">
+                                <div class="work-img">
+                                  <img src="assets/img/work-6.jpg" alt="" class="img-fluid">
+                                </div>
+                            </a>
+                            <div class="work-content">
+                                <div class="row">
+                                    <div class="col-sm-8">
+                                        <h2 class="w-title">TBD</h2>
+                                        <div class="w-more">
+                                            <span class="w-category">TBD</span> / <span class="w-date">TBD</span>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="w-info">
+                                            <p>
+                                                Lorem ipsum dolor sit amet consectetur adipisicing 
+                                                elit. Magni adipisci eaque autem fugiat! Quia, 
+                                                provident vitae! Magni tempora perferendis eum non 
+                                                provident.
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="w-skills">
+
+                                        </div>
+                                    </div>
+                                    <div class="row-sm-4">
+                                        <div class="w-like">
+                                            <a class="icon-link icon-link-hover" href="#">
+                                                <i class="bi bi-arrow-right"></i>
+                                            </a>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -99,20 +392,105 @@
             </div>
         </section>
 
-        <!-- Skills -->
-
-        <!-- Projects -->
-
-        <!-- Contact -->
+        <hr>
     </main>
+
+    <!-- Contact -->
+    <!-- paralac gives scrolling effect to images -->
+    <!-- <section id="contact" class="paralax-mf footer-paralax bg-image sect-14 route"> -->
+    <section id="contact" class="footer-mf sect-14 route">
+        <!-- style="background-image: url(assets/img/overlay-bg.jpg) -->
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="contact-mf">
+                        <div id="contact" class="box-shadow-full">
+                            <div class="row title-box-2">
+                                <h5 class="title-left">
+                                    Hit me up!
+                                </h5>
+                            </div>
+                            <div class="row">
+                                <!-- Contact Form -->
+                                <div class="col-md-6">
+                                    <form action="forms/contacts.php" method="POST" role="form" class="php-email-form">
+                                        <div class="row">
+                                            <div class="col-md-12 mb-3">
+                                                <div class="form-group">
+                                                    <input type="text" name="name" class="form-control" id-="name" placeholder="Your Name" required>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-12 mb-3">
+                                                <div class="form-group">
+                                                    <input type="email" name="email" class="form-control" id-="email" placeholder="Your Email" required>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-12 mb-3">
+                                                <div class="form-group">
+                                                    <input type="text" name="subject" class="form-control" id-="subject" placeholder="Subject" required>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-12 mb-3">
+                                                <div class="form-group">
+                                                    <textarea name="message" class="form-control" row="5" placeholder="Message" required></textarea>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-12 text-center my-3">
+                                                <div class="loading">Loading</div>
+                                                <div class="error-message"></div>
+                                                <div class="sent-message">Message sent! Thanks!</div>
+                                            </div>
+                                            <div class="col-md-12 text-center">
+                                                <button type="submit" class="button button-a button-big button-rounded">Send</button>
+                                            </div>
+                                            <div class="col-md-6"></div>
+                                        </div>
+                                    </form>
+                                </div>
+                                <!-- Bye Message and Social Links -->
+                                <div class="col-md-6">
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                        Debitis iure voluptate modi nobis quibusdam et in molestias ut autem 
+                                        qui recusandae, corporis reprehenderit eius nostrum. Facere architecto blanditiis corporis quo?
+                                    </p>
+                                    <div class="row">
+                                        <div class="col text-center">
+                                            <a class="" href="https://github.com/JtmVillan"><i class="bi bi-github"></i></a>
+                                        </div>
+                                        <div class="col text-center">
+                                            <a class="" href="https://www.linkedin.com/in/jared-villanueva-a450581a3/"><i class="bi bi-linkedin"></i></a>
+                                        </div>
+                                        <div class="col text-center">
+                                            <a class="" href="https://www.instagram.com/jared.vanilla.wafer/"><i class="bi bi-instagram"></i></a>
+                                        </div>
+                                        <div class="col text-center">
+                                            <a class="" href="https://open.spotify.com/user/therealjared?si=761124e2b8f4486b"><i class="bi bi-spotify"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
     
     <!-- Footer -->
     <footer>
-        
+        <div class="container">
+            <div class="row">
+                <div class="copyright-box">
+                    <p class="copyright">&copy; 2023 <strong>Jared Villanueva</strong>.</p>
+                </div>
+            </div>
+        </div>
     </footer> 
     <!-- End Footer -->
 
-<body>
+    <div id="preloader"></div>
+    <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
     <!-- Vendor JS Files -->
     <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
     <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
