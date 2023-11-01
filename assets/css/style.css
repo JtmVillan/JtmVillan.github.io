@@ -124,7 +124,7 @@ a:hover {
 
 /*--/ Title A /--*/
 .title-box {
-  margin-bottom: 4rem;
+  margin-bottom: 2rem;
 }
 
 .title-a {
@@ -676,6 +676,48 @@ a:hover {
   color: var(--contrast-color);
 }
 
+#resume {
+  font-size: 1.5rem;
+}
+
+/*--------------------------------------------------------------
+# Skills
+--------------------------------------------------------------*/
+.skills {
+  padding-left: 4rem;
+  padding-right: 4rem;
+}
+
+.skill-group {
+  margin-bottom: 1rem;
+}
+
+.skill-item {
+  background-color: var(--contrast-color);
+  color: var(--primary-bg-color);
+  border: var(--primary-bg-color);
+  border-radius: 16px;
+  border-width: thick;
+}
+
+.container-icons {
+  text-align: center;
+  margin-bottom: 3rem;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.container-icons .box-icon {
+  width: 25%;
+  height: 142px;
+  margin-bottom: 10px;
+}
+
+.dev {
+  font-size: 4rem;
+}
+
 /*--------------------------------------------------------------
 # Projects
 --------------------------------------------------------------*/
@@ -686,18 +728,30 @@ a:hover {
   background-color: #fff;
 }
 
-.work-box:hover img {
+/* .work-box:hover img {
   transform: scale(1.3);
+} */
+
+/* Makes card enlarge on hover */
+.work-box:hover {
+  transform: scale(1.05);
+  transition: all 1s;
 }
 
-.work-img {
+/* Adds small bounce effect on click */
+.work-box:active {
+  transform: scale(0.5);
+  transition: all 1s;
+}
+
+/* .work-img {
   display: block;
   overflow: hidden;
 }
 
 .work-img img {
   transition: all 1s;
-}
+} */
 
 .work-content {
   padding: 2rem 3% 1rem 4%;

@@ -16,6 +16,8 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
     <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
     <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
+          
     
     <!-- Template Main CSS File -->
     <link href="assets/css/style.css" rel="stylesheet">
@@ -68,7 +70,8 @@
         <section id="about" class="about-mf sect-pt4 route">
             <div class="container">
                 <div class="row">
-                    <div class="col-sm-12">
+                    <!-- Text About Me -->
+                    <div class="col-sm-6">
                         <div class="about-me pt-4 pt-md-0">
                             <div class="title-box-2">
                                 <h3 class="title-left">
@@ -79,7 +82,7 @@
                                 </h3>
                             </div>
                                 <p class="lead">
-                                    I recently graduated from <span class="fw-bold">UCSD</span> after comleting a Bachelor of
+                                    I recently graduated from <span class="fw-bold">UCSD</span> as a Bachelor of
                                     Science in Computer Engineering under the department of Electrical and Computer 
                                     Engineering
                                 </p>
@@ -94,10 +97,20 @@
                                     <span class="fw-bold">I believe in a maintaining a good work-life balance</span>, so in my free-time you
                                     can find me in the gym, reading books, or indulging in music and video games. 
                                 </p>
-                                <a class="icon-link icon-link-hover" href="#">
+                                <a id="resume" class="icon-link icon-link-hover" href="https://docs.google.com/document/d/1LLq_ettmU1SrqnfLf3OmxrhL1L8oHbik/edit?usp=sharing&ouid=100658144665073964567&rtpof=true&sd=true">
                                     See my resume<i class="bi bi-arrow-right"></i>
                                 </a>
                         </div>
+                    </div>
+                    <!-- Image of Me -->
+                    <div class="col-sm-6">
+                        <div class="w-75 container shadow-lg p-3 mb-5 bg-body rounded">
+                            <div class="row">
+                              <div class="col">
+                                <img src="/assets/img/profile.JPG" class="img-fluid mt-3 mb-5" alt="profile_img">
+                              </div>
+                            </div>
+                          </div>
                     </div>
                 </div>
             </div>
@@ -106,8 +119,9 @@
         <hr>
 
         <!-- Skills -->
-        <section id="skills" class="skills-mf sect-pt4 route">
-            <div class="container">
+        <section id="skills" class="skills-mf sect-pt4 pb-5 route">
+            <div class="container skills">
+                <!-- Title of section -->
                 <div class="row">
                     <div class="col-sm-12">
                         <div class="title-box text-center">
@@ -115,6 +129,64 @@
                                 Skills
                             </h3>
                         </div>
+                    </div>
+                </div>
+                <!-- Groups of skills -->
+                <div class="row">
+                    <div class="col">
+                        <div class="container-icons">
+                            <!-- Front-End -->
+                            <div class="box-icon">
+                                <i class="dev devicon-html5-plain"></i>
+                                <p>HTML</p>
+                            </div>
+                            <div class="box-icon">
+                                <i class="dev devicon-css3-plain"></i>
+                                <p>CSS</p>
+                            </div>
+                            <div class="box-icon">
+                                <i class="dev devicon-javascript-plain"></i>
+                                <p>JavaScript</p>
+                            </div>
+                            <div class="box-icon">
+                                <i class="dev devicon-nodejs-plain"></i>
+                                <p>NodeJS</p>
+                            </div>
+                            <div class="box-icon">
+                                <i class="dev devicon-bootstrap-plain"></i>
+                                <p>Bootstrap</p>
+                            </div>
+                        </div>
+                          <!-- Backend -->
+                          <div class="row justify-content-evenly skill-group">
+                            <div class="col-sm text-center skill-item">Python </div>
+                            <div class="col-sm text-center skill-item">C</div>
+                            <div class="col-sm text-center skill-item">C++</div>
+                            <div class="col-sm text-center skill-item">Java</div>
+                            <div class="col-sm text-center skill-item">SQL</div>
+                            <div class="col-sm text-center skill-item">MongoDB</div>
+                            <div class="col-sm text-center skill-item">Perl</div>
+                            <div class="col-sm text-center skill-item">PHP</div>
+                          </div>
+                          <!-- Testing -->
+                          <div class="row justify-content-evenly skill-group">
+                            <div class="col-sm text-center skill-item">Junit</div>
+                            <div class="col-sm text-center skill-item">Espresso</div>
+                            <div class="col-sm text-center skill-item">Roboelectric</div>
+                            <div class="col-sm text-center skill-item">GDB</div>
+                            <div class="col-sm text-center skill-item">Valgrind</div>
+                          </div>
+                          <!-- Tech -->
+                          <div class="row justify-content-evenly skill-group">
+                            <div class="col-sm text-center skill-item">Git</div>
+                            <div class="col-sm text-center skill-item">Apache2</div>
+                            <div class="col-sm text-center skill-item">Android Studio</div>
+                            <div class="col-sm text-center skill-item">Agile</div>
+                            <div class="col-sm text-center skill-item">Figma</div>
+                            <div class="col-sm text-center skill-item">CAD</div>
+                            <div class="col-sm text-center skill-item">ARM Assembly</div>
+                            <div class="col-sm text-center skill-item">System Verilog</div>
+                          </div>
                     </div>
                 </div>
             </div>
