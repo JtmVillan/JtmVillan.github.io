@@ -478,7 +478,7 @@ a:hover {
 * Mobile Navigation 
 */
 .mobile-nav-toggle {
-  color: #fff;
+  color: var(--primary-text-color);
   font-size: 28px;
   cursor: pointer;
   display: none;
@@ -722,10 +722,14 @@ a:hover {
 # Projects
 --------------------------------------------------------------*/
 .work-box {
-  margin-bottom: 3rem;
+  padding-top: 2rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  margin-bottom: 20px;
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   background-color: #fff;
+  border-radius: 10px;
 }
 
 /* .work-box:hover img {
@@ -744,14 +748,14 @@ a:hover {
   transition: all 1s;
 }
 
-/* .work-img {
+.work-img {
   display: block;
   overflow: hidden;
 }
 
 .work-img img {
   transition: all 1s;
-} */
+}
 
 .work-content {
   padding: 2rem 3% 1rem 4%;
@@ -781,12 +785,57 @@ a:hover {
 }
 
 .w-title {
-  font-size: 1.2rem;
+  font-size: 1
+  .2rem;
+}
+
+/*--------------------------------------------------------------
+# Project NewDetails
+--------------------------------------------------------------*/
+
+.project-new-img {
+  /* background-color: hotpink; */
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+.project-new-info {
+  /* background-color: #3393ff; */
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  font-size: 1.25rem;
+}
+
+.project-new-title {
+  font-size: 2rem;
+}
+
+.project-skills-container {
+  /* margin-bottom: 5rem; */
+  justify-content: baseline;
+  display: flex;
+  gap: 15px;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.project-icon{
+  font-size: 1.5rem;
+  /* height: 142px; */
+  /* margin-bottom: 10px; */
+}
+
+#project-github{
+  font-size: 1.25rem;
 }
 
 /*--------------------------------------------------------------
 # projects Details
 --------------------------------------------------------------*/
+.projects-mf {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
 .projects-details {
   padding-top: 40px;
 }
@@ -847,6 +896,15 @@ a:hover {
 
 .projects-details .projects-description p {
   padding: 0;
+}
+
+/*--------------------------------------------------------------
+# Polaroid
+--------------------------------------------------------------*/
+
+.polaroid {
+  background: white;
+  border: #18d26e;
 }
 
 /*--------------------------------------------------------------
