@@ -13,10 +13,6 @@ main {
 }
 
 :root {
-  /* --primary-bg-color: #FFEDD8;
-  --primary-text-color: #312920;
-  --contrast-color: #33b1ff; */
-
   --primary-bg-color: #F6F2F0;
   --primary-text-color: #35281D;
   --contrast-color: #5995ED;
@@ -55,8 +51,7 @@ a:hover {
 }
 
 .box-shadow,
-.work-box,
-.paralax-mf {
+.work-box {
   box-shadow: 0 13px 8px -10px rgba(0, 0, 0, 0.1);
 }
 
@@ -91,11 +86,6 @@ a:hover {
   height: 100%;
   width: 100%;
   opacity: 0.7;
-}
-
-.paralax-mf {
-  position: relative;
-  padding: 8rem 0;
 }
 
 .display-table {
@@ -152,18 +142,8 @@ a:hover {
 }
 
 .title-left {
-  /* font-size: 2rem; */
   position: relative;
 }
-
-/* .title-left:before {
-  content: "";
-  position: absolute;
-  height: 3px;
-  background-color: var(--contrast-color);
-  width: 100px;
-  bottom: -12px;
-} */
 
 /*------/ Box /------*/
 .box-pl2 {
@@ -205,19 +185,6 @@ a:hover {
 .list-ico span {
   color: var(--contrast-color);
   margin-right: 10px;
-}
-
-/*------/ Ico Circle /------*/
-.ico-circle {
-  height: 100px;
-  width: 100px;
-  font-size: 2rem;
-  border-radius: 50%;
-  line-height: 1.55;
-  margin: 0 auto;
-  text-align: center;
-  box-shadow: 0 0 0 10px var(--contrast-color);
-  display: block;
 }
 
 
@@ -719,78 +686,7 @@ a:hover {
 }
 
 /*--------------------------------------------------------------
-# Projects
---------------------------------------------------------------*/
-.work-box {
-  padding-top: 2rem;
-  padding-left: 1rem;
-  padding-right: 1rem;
-  margin-bottom: 20px;
-  -webkit-backface-visibility: hidden;
-  backface-visibility: hidden;
-  background-color: #fff;
-  border-radius: 10px;
-}
-
-/* .work-box:hover img {
-  transform: scale(1.3);
-} */
-
-/* Makes card enlarge on hover */
-.work-box:hover {
-  transform: scale(1.05);
-  transition: all 1s;
-}
-
-/* Adds small bounce effect on click */
-.work-box:active {
-  transform: scale(0.5);
-  transition: all 1s;
-}
-
-.work-img {
-  display: block;
-  overflow: hidden;
-}
-
-.work-img img {
-  transition: all 1s;
-}
-
-.work-content {
-  padding: 2rem 3% 1rem 4%;
-}
-
-.work-content .w-more .w-info .w-skills {
-  color: #4e4e4e;
-  font-size: 0.8rem;
-}
-
-.work-content .w-more .w-ctegory {
-  color: var(--contrast-color);
-}
-
-.work-content .w-like {
-  font-size: 2.5rem;
-  color: var(--contrast-color);
-  float: right;
-}
-
-.work-content .w-like a {
-  color: var(--contrast-color);
-}
-
-.work-content .w-like .num-like {
-  font-size: 0.7rem;
-}
-
-.w-title {
-  font-size: 1
-  .2rem;
-}
-
-/*--------------------------------------------------------------
-# Project NewDetails
+# Project New Details
 --------------------------------------------------------------*/
 
 .project-new-img {
@@ -826,85 +722,6 @@ a:hover {
 
 #project-github{
   font-size: 1.25rem;
-}
-
-/*--------------------------------------------------------------
-# projects Details
---------------------------------------------------------------*/
-.projects-mf {
-  padding-top: 4rem;
-  padding-bottom: 4rem;
-}
-
-.projects-details {
-  padding-top: 40px;
-}
-
-.projects-details .projects-details-slider img {
-  width: 100%;
-}
-
-.projects-details .projects-details-slider .swiper-pagination {
-  margin-top: 20px;
-  position: relative;
-}
-
-.projects-details .projects-details-slider .swiper-pagination .swiper-pagination-bullet {
-  width: 12px;
-  height: 12px;
-  background-color: #fff;
-  opacity: 1;
-  border: 1px solid var(--contrast-color);
-}
-
-.projects-details .projects-details-slider .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: var(--contrast-color);
-}
-
-.projects-details .projects-info {
-  padding: 30px;
-  box-shadow: 0px 0 30px rgba(78, 78, 78, 0.08);
-}
-
-.projects-details .projects-info h3 {
-  font-size: 22px;
-  font-weight: 700;
-  margin-bottom: 20px;
-  padding-bottom: 20px;
-  border-bottom: 1px solid #eee;
-}
-
-.projects-details .projects-info ul {
-  list-style: none;
-  padding: 0;
-  font-size: 15px;
-}
-
-.projects-details .projects-info ul li+li {
-  margin-top: 10px;
-}
-
-.projects-details .projects-description {
-  padding-top: 30px;
-}
-
-.projects-details .projects-description h2 {
-  font-size: 26px;
-  font-weight: 700;
-  margin-bottom: 20px;
-}
-
-.projects-details .projects-description p {
-  padding: 0;
-}
-
-/*--------------------------------------------------------------
-# Polaroid
---------------------------------------------------------------*/
-
-.polaroid {
-  background: white;
-  border: #18d26e;
 }
 
 /*--------------------------------------------------------------
