@@ -549,15 +549,16 @@ a:hover {
 
 .hero .hero-title {
   color: var(--primary-color);
-  font-weight: 600;
-  font-size: 3rem;
+  /* font-weight: 600;
+  font-size: 3rem; */
+  font-size: clamp(2rem, 1rem + 10vw, 6rem);
 }
 
-@media (min-width: 768px) {
+/* @media (min-width: 768px) {
   .hero .hero-title {
     font-size: 4.5rem;
   }
-}
+} */
 
 .hero .hero-subtitle {
   font-size: 1.5rem;
@@ -618,15 +619,7 @@ a:hover {
   padding-bottom: 4rem;
 }
 
-.about-mf .about-img {
-  margin-bottom: 2rem;
-}
-
-.about-mf .about-img img {
-  margin-left: 10px;
-}
-
-@media (min-width: 767px) {
+@media (min-width: 762px) {
   .about-mf .box-pl2 {
     margin-top: 3rem;
     padding-left: 0rem;
