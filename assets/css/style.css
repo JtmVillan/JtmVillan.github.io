@@ -820,9 +820,9 @@ a:hover {
 --------------------------------------------------------------*/
 footer {
   text-align:justify;
-  color: var(--text-color);
+  color: var(--primary-bg-color);
   padding: 25px 0;
-  background: var(--background-color);
+  background: var(--primary-text-color);
 }
 
 footer .copyright {
