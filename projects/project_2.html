@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="A brief case study on my senior engineering Capstone project!">
+    <meta name="description" content="A brief case study on my Health Hive class project">
     
     <title>Health Hive</title>
 
@@ -35,11 +35,11 @@
             <h1 class="logo"><a href="/index.html">JV</a></h1>
             <nav id="navbar" class="navbar">
                 <ul>
-                    <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
-                    <li><a class="nav-link scrollto" href="#about">About</a></li>
-                    <li><a class="nav-link scrollto" href="#skills">Skills</a></li>
-                    <li><a class="nav-link scrollto" href="#projects">Projects</a></li>
-                    <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
+                    <li><a class="nav-link scrollto active" href="/index.html#home">Home</a></li>
+                    <li><a class="nav-link scrollto" href="/index.html#about">About</a></li>
+                    <li><a class="nav-link scrollto" href="/index.html#skills">Skills</a></li>
+                    <li><a class="nav-link scrollto" href="/index.html#projects">Projects</a></li>
+                    <li><a class="nav-link scrollto" href="/index.html#contact">Contact</a></li>
                 </ul>
                 <i class="bi bi-list mobile-nav-toggle"></i>
             </nav>
@@ -61,61 +61,89 @@
     <!-- End Hero Section -->
 
     <main id="main">
-        <section id="projects" class="projects">
+        <!-- Projects -->
+        <section class="projects">
             <div class="container">
-                <!-- Project 2 -->
+                <!-- Desktop and Mobile Img -->
                 <div class="row">
-                    <div class="col-sm-6">
-                        <div class="w-75 container shadow-lg p-3 mb-5 bg-body rounded">
-                            <div class="row">
-                              <div class="col">
-                                <img src="/assets/img/project-2-desktop.png" class="img-fluid mt-3 mb-5" alt="project_2">
-                              </div>
-                            </div>
-                          </div>
-                    </div>
-                    <div class="col project-new-info">
-                        <a href="#" class="project-new-title">
-                            Health Hive
-                        </a>
-                        <div class="project-new-info">
-                            Fully developed web app designed to be connected to 
-                            smart IOT supplement dispenser (physical protoype). Focused on 
-                            user registering, login, connecting to device via wifi, and controlling 
-                            dispensing servings and physical output. 
+                    <div class="col-sm-9 text-center">
+                        <div class="shadow-lg p-3 mb-5 bg-body rounded">
+                            <img src="/assets/img/project-2-desktop.png" class="img-fluid mt-3 mb-5" alt="project_2_desktop">
                         </div>
+                    </div>
+                    <div class="col-sm-3 text-center">
+                        <div class="shadow-lg p-3 mb-5 bg-body rounded">
+                            <img src="/assets/img/project-2-mobile.png" class="img-fluid mt-3 mb-5" alt="project_2_mobile">
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <h2>Project Overview</h2>
+                        <div class="project-new-info">
+                            <p class="lead">
+                                As part of my senior Capstone project in the course "The Art of Product Engineering"
+                                as UCSD, I decided to lead a 4-person team to develop an automatic Protein Dispenser.
+                                As someone who pursues bodybuilding as a hobby and who generally consumes in products and 
+                                content related to health, fitness and gym culture, I felt it was appropriate to utilize my software 
+                                and hardware skills to develop a product myself and my peers would enjoy.
+                            </p>
+                            <p class="lead">
+                                As team leader of this project I played the role Front-end Engineer, UI/UX Lead, and Prototype lead.
+                                Additionally, I was in charge of creating weekly update videos for class feedback, reporting on our progress.
+                                This included regular stand-up meetings, sprints and task assignment.
+                            </p>
+                            <p class="lead">
+                                Personally, I built the web application with HTML, CSS and JavaScript and mocked/designed early 
+                                layouts in Figma. I was also in charge of designing the STL models needed for 3D printing
+                                hardware parts and the overall design of our physical protoype. I aided in the backend connection
+                                between our web app and raspberry pi that controlled the mechanisms behind the prototypes dispensing.
+                            </p>
+                        </div>
+                        <h2>Tools Used</h2>
                         <div class="project-skills-container">
                             <div class="col-1">
                                 <i class="project-icon devicon-python-plain"></i>
+                                <p>Python</p>
                             </div>
                             <div class="col-1">
                                 <i class="project-icon devicon-fastapi-plain"></i>
-                            </div>
-                            <div class="col-1">
-                                <i class="project-icon devicon-raspberrypi-line"></i>
+                                <p>FastAPI</p>
                             </div>
                             <div class="col-1">
                                 <i class="project-icon devicon-html5-plain"></i>
+                                <p>HTML</p>
+                            </div>
+                            <div class="col-1">
+                                <i class="project-icon devicon-raspberrypi-line"></i>
+                                <p>RaspberryPi</p>
+                            </div>
+                        </div>
+                        <div class="project-skills-container">
+                            <div class="col-1">
+                                <i class="project-icon devicon-figma-plain"></i>
+                                <p>Figma</p>
                             </div>
                             <div class="col-1">
                                 <i class="project-icon devicon-css3-plain"></i>
+                                <p>CSS</p>
                             </div>
                             <div class="col-1">
                                 <i class="project-icon devicon-javascript-plain"></i>
-                            </div>
-                            <div class="col-1">
-                                <i class="project-icon devicon-figma-plain"></i>
+                                <p>JavaScript</p>
                             </div>
                         </div>
                         <div class="project-link">
-                            <a id="project-github" class="icon-link icon-link-hover" href="https://github.com/UCSD-ECE140/ece-140b-spring-2023-final-project-protein_dispenser">
-                                Github repo<i class="bi bi-arrow-right"></i>
-                            </a>
+                            <a id="project-github" class="icon-link icon-link-hover" href="https://github.com/JtmVillan/JtmVillan.github.io">
+                                Githu repo<i class="bi bi-arrow-right"></i>
+                            </a>       
                         </div>
                     </div>
                 </div>
             </div>
         </section>
+
+        <hr>
     </main>
     
     <!-- Footer -->

@@ -35,11 +35,11 @@
             <h1 class="logo"><a href="/index.html">JV</a></h1>
             <nav id="navbar" class="navbar">
                 <ul>
-                    <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
-                    <li><a class="nav-link scrollto" href="#about">About</a></li>
-                    <li><a class="nav-link scrollto" href="#skills">Skills</a></li>
-                    <li><a class="nav-link scrollto" href="#projects">Projects</a></li>
-                    <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
+                    <li><a class="nav-link scrollto active" href="/index.html#home">Home</a></li>
+                    <li><a class="nav-link scrollto" href="/index.html#about">About</a></li>
+                    <li><a class="nav-link scrollto" href="/index.html#skills">Skills</a></li>
+                    <li><a class="nav-link scrollto" href="/index.html#projects">Projects</a></li>
+                    <li><a class="nav-link scrollto" href="/index.html#contact">Contact</a></li>
                 </ul>
                 <i class="bi bi-list mobile-nav-toggle"></i>
             </nav>
@@ -62,40 +62,66 @@
 
     <main id="main">
         <!-- Projects -->
-        <section id="projects" class="projects">
+        <section class="projects">
             <div class="container">
-                <!-- Project 1 -->
+                <!-- Desktop and Mobile Img -->
                 <div class="row">
-                    <div class="col-sm-6">
-                        <div class="w-75 container shadow-lg p-3 mb-5 bg-body rounded">
-                            <div class="row">
-                              <div class="col">
-                                <img src="/assets/img/project-1-desktop.png" class="img-fluid mt-3 mb-5" alt="project_1">
-                              </div>
-                            </div>
-                          </div>
-                    </div>
-                    <div class="col project-new-info">
-                        <a href="https://jtmvillan.github.io" class="project-new-title">
-                            jaredvillanueva.com
-                        </a>
-                        <div class="project-new-info">
-                            Most recent version of my personal portfolio site. Original built up from the 
-                            DevFolio Bootstrap template, but later refactored and redesigned to showcase 
-                            my skills, projects, and me!
+                    <div class="col-sm-9 text-center">
+                        <div class="shadow-lg p-3 mb-5 bg-body rounded">
+                            <img src="/assets/img/project-1-desktop.png" class="img-fluid mt-3 mb-5" alt="project_1_desktop">
                         </div>
+                    </div>
+                    <div class="col-sm-3 text-center">
+                        <div class="shadow-lg p-3 mb-5 bg-body rounded">
+                            <img src="/assets/img/project-1-mobile.png" class="img-fluid mt-3 mb-5" alt="project_1_mobile">
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <h2>Project Overview</h2>
+                        <div class="project-new-info">
+                            <p class="lead">
+                                This project is the latest published version of my personal portfolio website.
+                                Originally, my first portfolio site was built as course project to learn
+                                vanilla HTML, CSS, JavaScript and some responsive design. However, that site 
+                                was purely for practice (exploring the various tags and capabilities and 
+                                basid front-end design without relying on external tools) and never published online. 
+                            </p>
+                            <p class="lead">
+                                With this new site, I originally adapted a Bootstrap template, called DevFolio, 
+                                and eventually ended up rewriting most of it keeping some basic structure and libraries 
+                                used. Many iterations and designs were ran through before deciding on this more 
+                                simplistic approach. 
+                            </p>
+                            <p class="lead">
+                                Throughout my development process I've learned and re-learned about 
+                                how important response design is and what I am able to learn from other
+                                front-end designs that inspired my site. And I plan to conintually update 
+                                over time. 
+                            </p>
+                        </div>
+                        <h2>Tools Used</h2>
                         <div class="project-skills-container">
                             <div class="col-1">
                                 <i class="project-icon devicon-html5-plain"></i>
+                                <p>HTML</p>
                             </div>
                             <div class="col-1">
                                 <i class="project-icon devicon-css3-plain"></i>
+                                <p>CSS</p>
                             </div>
                             <div class="col-1">
                                 <i class="project-icon devicon-javascript-plain"></i>
+                                <p>JavaScript</p>
                             </div>
                             <div class="col-1">
                                 <i class="project-icon devicon-bootstrap-plain"></i>
+                                <p>Bootstrap</p>
+                            </div>
+                            <div class="col-1">
+                                <i class="project-icon devicon-php-plain"></i>
+                                <p>PHP</p>
                             </div>
                         </div>
                         <div class="project-link">
