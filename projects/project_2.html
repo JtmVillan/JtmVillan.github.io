@@ -30,19 +30,33 @@
 </head>
 
 <body>
+    <input type="checkbox" id="theme-switch" class="theme-switch">
+    <div id="page">
+        
+    <!-- Header -->
     <header id="header" class="fixed-top">
         <div class="container d-flex align-items-center justify-content-between">
-            <h1 class="logo"><a href="/index.html">JV</a></h1>
-            <nav id="navbar" class="navbar">
-                <ul>
-                    <li><a class="nav-link scrollto active" href="/index.html#home">Home</a></li>
-                    <li><a class="nav-link scrollto" href="/index.html#about">About</a></li>
-                    <li><a class="nav-link scrollto" href="/index.html#skills">Skills</a></li>
-                    <li><a class="nav-link scrollto" href="/index.html#projects">Projects</a></li>
-                    <li><a class="nav-link scrollto" href="/index.html#contact">Contact</a></li>
-                </ul>
-                <i class="bi bi-list mobile-nav-toggle"></i>
-            </nav>
+            <div class="me-auto p-2">
+                <h1 class="logo"><a href="index.html">JV</a></h1>
+            </div>
+            
+            <div class="p-2">
+                <nav id="navbar" class="navbar">
+                    <ul>
+                        <li><a class="nav-link scrollto active " href="/index.html#hero">Home</a></li>
+                        <li><a class="nav-link scrollto" href="/index.html#about">About</a></li>
+                        <li><a class="nav-link scrollto" href="/index.html#skills">Skills</a></li>
+                        <li><a class="nav-link scrollto" href="/index.html#projects">Projects</a></li>
+                        <li><a class="nav-link scrollto" href="/index.html#contact">Contact</a></li>
+                    </ul>
+                    <i class="bi bi-list mobile-nav-toggle"></i>
+                </nav>
+            </div>
+            <div class="p-2">
+                <label for="theme-switch" class="switch-label"> 
+                    <a class="hover-underline-animation"> <i class="bi bi-highlights"></i></a>
+                </label>
+            </div>
             
         </div>
     </header>
