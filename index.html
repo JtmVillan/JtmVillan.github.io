@@ -34,19 +34,33 @@
 </head>
 
 <body>
+    <input type="checkbox" id="theme-switch" class="theme-switch">
+    <div id="page">
+        
+    <!-- Header -->
     <header id="header" class="fixed-top">
         <div class="container d-flex align-items-center justify-content-between">
-            <h1 class="logo"><a href="index.html">JV</a></h1>
-            <nav id="navbar" class="navbar">
-                <ul>
-                    <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
-                    <li><a class="nav-link scrollto" href="#about">About</a></li>
-                    <li><a class="nav-link scrollto" href="#skills">Skills</a></li>
-                    <li><a class="nav-link scrollto" href="#projects">Projects</a></li>
-                    <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
-                </ul>
-                <i class="bi bi-list mobile-nav-toggle"></i>
-            </nav>
+            <div class="me-auto p-2">
+                <h1 class="logo"><a href="index.html">JV</a></h1>
+            </div>
+            
+            <div class="p-2">
+                <nav id="navbar" class="navbar">
+                    <ul>
+                        <li><a class="nav-link scrollto active " href="#hero">Home</a></li>
+                        <li><a class="nav-link scrollto" href="#about">About</a></li>
+                        <li><a class="nav-link scrollto" href="#skills">Skills</a></li>
+                        <li><a class="nav-link scrollto" href="#projects">Projects</a></li>
+                        <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
+                    </ul>
+                    <i class="bi bi-list mobile-nav-toggle"></i>
+                </nav>
+            </div>
+            <div class="p-2">
+                <label for="theme-switch" class="switch-label"> 
+                    <a class="hover-underline-animation"> <i class="bi bi-highlights"></i></a>
+                </label>
+            </div>
             
         </div>
     </header>
@@ -62,8 +76,8 @@
             </div>
         </div>
     </div>
-    <!-- End Hero Section -->
 
+    <!-- Main Content -->
     <main id="main">
         <!-- About Section -->
         <section id="about" class="about-mf sect-pt4 route">
@@ -119,7 +133,7 @@
 
         <hr>
 
-        <!-- Skills -->
+        <!-- Skills Section-->
         <section id="skills" class="skills-mf sect-pt4 pb-5 route">
             <div class="container skills">
                 <!-- Title of section -->
@@ -251,7 +265,7 @@
 
         <hr>
 
-        <!-- Projects -->
+        <!-- Projects Section -->
         <section id="projects" class="projects">
             <div class="container">
                 <div class="row">
@@ -436,13 +450,13 @@
         <hr>
     </main>
 
-    <!-- Contact -->
+    <!-- Contact Section-->
     <section id="contact" class="footer-mf sect-14 route">
         <div class="container">
             <div class="row">
                 <div class="col-sm-12">
                     <div class="contact-mf">
-                        <div id="contact" class="box-shadow-full">
+                        <div id="contact" class="contact box-shadow-full">
                             <div class="row title-box-2">
                                 <h3 class="title-left">
                                     Hit me up!
@@ -542,5 +556,7 @@
     <script src="assets/vendor/php-email-form/validate.js"></script>
     <!-- Template Main JS Files -->
     <script src="/assets/js/main.js"></script>
+
+    </div>
 </body>
 </html>
