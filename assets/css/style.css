@@ -3,8 +3,11 @@
 --------------------------------------------------------------*/
 body {
   background-color: var(--bg-color);
-  font-family: "Baskerville", serif;
+  /* font-family: "Baskerville", serif; */
   color: var(--text-color);
+
+  @font-face { font-family: Delicious; src: url('/Noto_Sans/NotoSans-Black.ttf');} 
+  /* @font-face { font-family: Delicious; font-weight: bold; src: url('/Noto_Sans/NotoSans-Black.ttf');} */
 }
 
 main {
