@@ -953,9 +953,6 @@ footer .credits a {
   color: #fff;
 }
 
-.bi-github,
-.bi-linkedin,
-.bi-instagram,
-.bi-spotify {
-  font-size: xx-large;
+.socials{
+  font-size: 2rem;
 }
