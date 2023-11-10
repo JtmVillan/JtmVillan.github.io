@@ -732,12 +732,29 @@ a:hover {
   bottom:3px; 
 }
 
-.bi-arrow-right:hover {
+/* .bi-arrow-right:hover {
   color: var(--theme-color);
-}
+} */
 
 #resume {
   font-size: 1.5rem;
+}
+
+.resume-card-body {
+  width: 50rem;
+}
+
+.resume-btn{
+  background-color: var(--theme-color);
+}
+
+.resume-btn:hover{
+  background-color: var(--theme-color);
+  color: var(--text-color);
+}
+
+.resume-btn:focus {
+  background-color: var(--theme-color);
 }
 
 /*--------------------------------------------------------------
